@@ -16,7 +16,6 @@ const App = () => {
   return (
     <>
       <Navbar />
-
       <Routes>
         {data.map((e) => {
           return <Route path={e.path} element={e.Element} />
