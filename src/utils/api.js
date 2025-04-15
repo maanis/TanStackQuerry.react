@@ -5,6 +5,6 @@ export const api = axios.create({
 })
 
 export const fetchPosts = async () => {
-    const res = await api.get('/posts')
+    const res = await api.get(`/posts`)
     return res.data
 }
