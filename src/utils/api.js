@@ -8,3 +8,8 @@ export const fetchPosts = async () => {
     const res = await api.get(`/posts`)
     return res.data
 }
+
+export const deletePost = async (id) => {
+    const res = await api.delete(`/posts/${id}`)
+    return res
+}
