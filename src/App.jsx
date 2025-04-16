@@ -5,7 +5,6 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Nq from './Components/Nq'
 import Rq from './Components/Rq'
-
 const App = () => {
   const data = [
     { path: '/', Element: <Home /> },
